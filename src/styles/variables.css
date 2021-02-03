@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  /* Colors */
+  --blue-primary: hsl(233, 26%, 24%);
+  --green-primary: hsl(136, 65%, 51%);
+  --cyan-primary: hsl(192, 70%, 51%);
+
+  --blue-neutral: hsl(233, 8%, 62%);
+  --blue-neutralSecond: hsl(220, 16%, 96%);
+  --gray--neutral : hsl(0, 0%, 98%);
+  --white-neutral: hsl(0, 0%, 100%);
+  
+  /* Font (300, 400, 700*/
+  --font-sans: 'Public Sans', sans-serif;
+}

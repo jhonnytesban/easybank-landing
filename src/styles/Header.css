@@ -1,0 +1,38 @@
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.menu-icon{
+  width: 30px;
+  height: 15px;
+}
+.close-icon{
+  display: none;
+}
+.nav{
+  width: 80%;
+  background-color: var(--white-neutral);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  position: absolute;
+  left: 10%;
+}
+.menu{
+  list-style: none;
+  text-align: center;
+}
+.menu__item{
+  margin: 15px 0;
+}
+.link{
+  text-decoration: none;
+  font-family: var(--font-sans);
+  color: var(--blue--neutral);
+  font-size: 18px;
+  font-weight: 400;
+}
