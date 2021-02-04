@@ -10,8 +10,8 @@ class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      menu: "active",
-      nav: "active-nav"
+      menu: "deactive",
+      nav: "deactive-nav"
     }
   }
   render(){
@@ -48,6 +48,11 @@ class Header extends React.Component {
         </nav>
         <img className="intro-mobile" src={introMobile} alt=""/>
         <img className="header__img" src={image} alt=""/>
+        <div className="header-info">
+          <h1 className="title">Next generation digital banking</h1>
+          <p className="header__text">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgenting, investing, and much more.</p>
+          <button className="header__button">Request Invite</button>
+        </div>
       </header>
     )
   }
