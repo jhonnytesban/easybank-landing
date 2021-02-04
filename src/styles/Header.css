@@ -7,6 +7,7 @@
   position: absolute;
   width: 100vw;
   position: fixed;
+  z-index: 1000;
 }
 .menu-icon{
   width: 30px;
@@ -34,7 +35,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 20px;
-  position: absolute;
+  position: fixed;
   left: 10%;
   bottom: 120%;
   transition: all 1s;
@@ -49,11 +50,12 @@
   bottom: -.5%;
   transition: all 1s;
   position: fixed;
+  z-index: 100;
 }
 .deactive-nav{
   width: 100vw;
   height: 90vh;
-  background: linear-gradient(to bottom, hsla(0, 0%, 83%, 0.5), hsla(0, 0%, 100%, 0.2));
+  background: linear-gradient(to bottom, hsla(0, 0%, 64%, 0.5), hsla(0, 0%, 100%, 0.2));
   position: absolute;
   bottom: 100%;
   transition: all 1s;
