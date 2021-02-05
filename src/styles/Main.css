@@ -1,5 +1,5 @@
 .main{
-  background: var(--gray-neutral);
+  background: var(--blue-neutralSecond);
 }
 .section{
   padding: 40px 20px;
@@ -31,4 +31,43 @@
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 20px;
+}
+.article2{
+  background-color: var(--gray-neutral);
+  padding: 40px 20px;
+}
+.card{
+  background-color: var(--white-neutral);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.card__img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 15px;
+}
+.card-info{
+  padding: 0 20px;
+  padding-bottom: 40px;
+}
+.card__name{
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--blue-neutral);
+  margin-bottom: 10px;
+}
+.card__title{
+  font-family: var(--font-sans);
+  color: var(--blue-primary);
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card__text{
+  font-family: var(--font-sans);
+  color: var(--blue-neutral);
+  font-size: 14px;
+  line-height: 20px;
 }

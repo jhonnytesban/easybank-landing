@@ -5,6 +5,10 @@ import icon1 from '../assets/images/icon-online.svg';
 import icon2 from '../assets/images/icon-budgeting.svg';
 import icon3 from '../assets/images/icon-onboarding.svg';
 import icon4 from '../assets/images/icon-api.svg';
+import money from '../assets/images/image-currency.jpg';
+import restaurant from '../assets/images/image-restaurant.jpg';
+import plane from '../assets/images/image-plane.jpg';
+import confetti from '../assets/images/image-confetti.jpg';
 
 const Main = () => {
   return(
@@ -33,6 +37,41 @@ const Main = () => {
           <img src={icon4} alt="" className="section__icon"/>
           <h3 className="section__title">Open Api</h3>
           <p className="section__text">Manage your savings, investments, pension, and much more from one account. Tracking your money has never easier.</p>
+        </section>
+      </article>
+      <article className="article2">
+        <h2 className="subtitle">Latest Articles</h2>
+        <section className="card">
+          <img src={money} alt="" className="card__img"/>
+          <div className="card-info">
+            <p className="card__name">By Claire Robinson</p>
+            <h3 className="card__title">Receive money in any currency with no fees</h3>
+            <p className="card__text">The world id getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single...</p>
+          </div>
+        </section>
+        <section className="card">
+          <img src={restaurant} alt="" className="card__img"/>
+          <div className="card-info">
+            <p className="card__name">By Wilson Hutton</p>
+            <h3 className="card__title">Treat yourself without worryng about money</h3>
+            <p className="card__text">Our simple budgeting features allows you to separate out your spending and set realistic limits each month. That means you...</p>
+          </div>
+        </section>
+        <section className="card">
+          <img src={plane} alt="" className="card__img"/>
+          <div className="card-info">
+            <p className="card__name">By Wilson Hutton</p>
+            <h3 className="card__title">Take your Easybank card wherever you go</h3>
+            <p className="card__text">We want you to enjoy travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you..</p>
+          </div>
+        </section>
+        <section className="card">
+          <img src={confetti} alt="" className="card__img"/>
+          <div className="card-info">
+            <p className="card__name">By Claire Robinson</p>
+            <h3 className="card__title">Our invite-only Beta accounts are now live!</h3>
+            <p className="card__text">After a lot of hard work by the whole team, we're excited to launch our close beta. It's easy to request an invite through the site...</p>
+          </div>
         </section>
       </article>
     </main>
