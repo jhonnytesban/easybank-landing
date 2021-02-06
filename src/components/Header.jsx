@@ -5,6 +5,7 @@ import hamburger from '../assets/images/icon-hamburger.svg';
 import close from '../assets/images/icon-close.svg';
 import image from '../assets/images/image-mockups.png';
 import introMobile from '../assets/images/bg-intro-mobile.svg';
+import introDesktop from '../assets/images/bg-intro-desktop.svg';
 
 class Header extends React.Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class Header extends React.Component {
           <img className="logo" src={logo} alt="Logo de la empresa EasyBank"/>
           <img className="menu-icon" src={hamburger} alt="Menú de navegación" onClick={handleStyle}/>
           <img className="close-icon" src={close} alt="Cerrar menú de navegación"/>
+          <button className="header__buttonD">Request Invite</button>
         </div>
         <nav className={this.state.nav}>
           <ul className={this.state.menu}>
@@ -47,11 +49,16 @@ class Header extends React.Component {
           </ul>
         </nav>
         <img className="intro-mobile" src={introMobile} alt=""/>
-        <img className="header__img" src={image} alt=""/>
-        <div className="header-info">
-          <h1 className="title">Next generation digital banking</h1>
-          <p className="header__text">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgenting, investing, and much more.</p>
-          <button className="header__button">Request Invite</button>
+        <div className="container-layout">
+          <div className="container-desktop">
+            <img className="intro-desktop" src={introDesktop} alt=""/>
+            <img className="header__img" src={image} alt=""/>
+          </div>
+          <div className="header-info">
+            <h1 className="title">Next generation digital banking</h1>
+            <p className="header__text">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgenting, investing, and much more.</p>
+            <button className="header__button">Request Invite</button>
+          </div>
         </div>
       </header>
     )
