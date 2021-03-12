@@ -71,3 +71,44 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (min-width: 800px) {
+  .subtitle{
+    text-align: left;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 10%;
+  }
+  .section__text:nth-child(2){
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 10%;
+    padding-right: 50%;
+  }
+  .containerD{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 10%;
+  }
+  .section__icon {
+    width: 4rem;
+    margin: 0 0 30px;
+  }
+  .section__title{
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .section__text{
+    text-align: left;
+  }
+  .container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .article2{
+    padding: 40px 10%;
+  }
+  .card{
+    width: 90%;
+  }
+}
